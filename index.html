@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="github">
+        <a href="https://github.com/TheLegenDev" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+    </div>
+
+    <div class="form">
+
+        <div class="form-body sign-in">
+
+            <form action="">
+
+                <h2>LOGIN</h2>
+
+                <div class="input-field">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                    <i class="bx bxs-user"></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+
+                <div class="remember-me">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+
+                <div class="forgot-pass">
+                    <p><a href="#" class="forgot-pass">Forgot password?</a></p>
+                </div>
+
+                <button type="submit">LOGIN</button>
+
+                <div class="signUp-connect">
+                    <p>Don't have an account? <a href="#" class="signUpBtn-connect">Sign up!</a></p>
+                </div>
+
+                <div class="social-acc">
+
+                    <div class="seperator">
+                        <div class="line"></div>
+                        <div class="text">OR</div>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="social-acc-logo">
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+        <div class="form-body sign-up">
+
+            <form action="">
+
+                <h2>REGISTER</h2>
+
+                <div class="input-field">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                    <i class="bx bxs-user"></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                    <i class="bx bxs-envelope"></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+
+                <div class="remember-me">
+                    <p><label><input type="checkbox"> I agree to the <a href="#" class="t-c">terms &
+                                conditions</a></label></p>
+                </div>
+
+                <button type="submit">REGISTER</button>
+
+                <div class="signUp-connect">
+                    <p>Already have an account? <a href="#" class="signInBtn-connect">Sign in!</a></p>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
